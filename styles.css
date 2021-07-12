@@ -1,0 +1,105 @@
+/* Chandler Thompson */
+
+h1{
+  text-align: center;
+  font-style: italic;
+  font-family: sans-serif;
+  color: white;
+  border: 2px solid;
+  border-color: black;
+  background-color: rgb(178,34,34);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 40px;
+}
+.topnav{
+  background-color:  	rgb(192,192,192);
+  font-size: 25px;
+  padding: 10px;
+  border: 2px solid black;
+}
+a:link, a:visited{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+
+}
+body{
+  background-color: rgba(153,101,21,0.7);
+  margin: 20px 30px 20px 30px;
+  background-size: 100%;
+}
+html{
+  background: url("oven.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+}
+.pizza{
+  text-align: center;
+  padding: 10px;
+  margin: 30px;
+  flex-wrap: wrap;
+  background-color: rgb(250,235,215);
+  display: flex;
+
+
+}
+.pizzaflex{
+  flex: 1 1 50px;
+  border: 2px solid black;
+  width: 300px;
+  padding: 30px;
+
+}
+footer{
+  flex-grow: 2;
+  background-color: 	rgb(192,192,192);
+  text-align: right;
+  border: 2px solid black;
+}
+.review{
+  border: 5px solid black;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+}
+.review span{
+  font-size: 20px;
+  font-style: italic;
+}
+.container{
+  background-color: rgb(250,235,215);
+  padding: 10px;
+  margin: 30px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+.contact{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.Info{
+  flex: 1 0 100%;
+  order: -1;
+}
+@media screen and (max-width:568px){
+  .navflex{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+  img{
+    width: 230px;
+  }
+  .review{
+    width: 250px;
+    margin: 0px;
+  }
+}
